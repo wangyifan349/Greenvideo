@@ -1,0 +1,49 @@
+# Web framework
+Flask>=2.3.3
+
+# WSGI / utilities
+Werkzeug>=2.3.4
+Jinja2>=3.1.2
+itsdangerous>=2.1.2
+click>=8.1.7
+python-dotenv>=1.0.0
+
+# Database and ORM
+SQLAlchemy>=2.0.19
+Flask-SQLAlchemy>=3.0.4
+Flask-Migrate>=4.0.4
+alembic>=1.11.0
+
+# Database drivers (choose what's relevant)
+psycopg[binary]>=3.2.0        # PostgreSQL driver
+mysql-connector-python>=8.1.0  # MySQL driver (alternative: pymysql)
+pymysql>=1.1.0                # Pure-Python MySQL driver
+
+# Async DB (if you use async stacks)
+asyncpg>=0.28.0
+
+# Authentication / forms / sessions
+Flask-Login>=0.7.0
+Flask-WTF>=1.1.1
+bcrypt>=4.0.1
+
+# REST / API utils
+Flask-RESTful>=0.3.9
+Flask-CORS>=4.0.2
+
+# File uploads / safety
+python-multipart>=0.0.6
+python-magic>=0.5.0
+
+# Migrations & management
+gunicorn>=21.2.0
+
+# Testing / linting (optional)
+pytest>=8.4.0
+coverage>=7.2.0
+black>=24.3.0
+
+# Utilities
+itsdangerous>=2.1.2
+requests>=2.31.0
+python-dateutil>=2.8.2
