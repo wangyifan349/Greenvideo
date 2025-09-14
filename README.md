@@ -1,4 +1,3 @@
-```markdown
 # README — Greenvideo
 
 Greenvideo is a minimal single-file Flask app (app.py) for self-hosted video sharing. Users can register/login, upload videos (mp4/webm/ogg/mov/mkv up to 500MB), mark videos public or hidden, manage their videos (toggle visibility, delete), and search other users by username with an LCS-based similarity ranking. Public videos are viewable on user pages. The app stores files in ./uploads and metadata in app.db (SQLite).
@@ -46,4 +45,3 @@ Greenvideo is a minimal single-file Flask app (app.py) for self-hosted video sha
 This project is released under the GNU Affero General Public License v3.0. See LICENSE file or https://www.gnu.org/licenses/.
 
 Author: github.com/wangyifan349 💚
-```
